@@ -32,23 +32,23 @@ Para gobierno centralizado, alta rotación de equipos y mayor número de desarro
 ## Buenas prácticas 
  
 ``` 
-$ cat .git/HEAD para saber dónde estamos  
+$ cat .git/HEAD --> para saber dónde estamos  
 
-$ git branch muestra las ramas en local 
+$ git branch --> muestra las ramas en local 
 
-$ git branch -r  muestra las ramas en remoto tambien  
+$ git branch -r  --> muestra las ramas en remoto tambien  
 
-$ git pull origin develop para descargar esa rama 
+$ git pull origin develop --> para descargar esa rama 
 
-$ git checkout develop para salir hacia esa rama y en git branch las muestra 
+$ git checkout develop --> para salir hacia esa rama y en git branch las muestra 
 
-$ git checkout -b feature/0001-add-cancel-button crea rama y te mueve a ella 
+$ git checkout -b feature/0001-add-cancel-button --> crea rama y te mueve a ella 
 
-$ git checkout - devuelve al ultimo commit que tenia  
+$ git checkout - --> devuelve al ultimo commit que tenia  
 
-$ git push -u origin feature/0001-add-cancel-button hace push de esa rama 
+$ git push -u origin feature/0001-add-cancel-button --> hace push de esa rama 
 
-$ git fetch --all para descargar todas las ramas 
+$ git fetch --all --> para descargar todas las ramas 
 
 ```
  
